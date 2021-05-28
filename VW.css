@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+}
+    
+.ch{
+  border: 2px solid black;
+   width: 30%;
+   padding: 4px;
+   background-color: gray;
+   font-size:15px;
+   font-family: 'Source Code Pro', monospace;
+}
+.item{
+    border: 2px solid black;
+    width: 30%;
+    padding: 4.5px;
+    background-color: gray;
+    font-size:15px;
+    font-family: 'Source Code Pro', monospace;
+}
+.box{
+    border: 2px solid black;
+    width:30%;
+    padding: 4.5px;
+    background-color: gray;
+    font-size:15px;
+    font-family: 'Source Code Pro', monospace;
+}
+#yo{
+    background-color: green;
+    border:2px solid black;
+    width: 30%;
+    
+    margin-top: 0px;
+     position: relative;
+     left:70%;
+     
+}
+#ib{
+    background-color: gold;
+    border:2px solid black;
+    width: 30%;
+    margin-top: 0px;
+    
+    position: relative;
+    
+    left:70%;
+    
+}
+#in{
+    background-color:hotpink;
+    border:2px solid black;
+    width: 30%;
+    margin-top: 0px;
+    position: relative;
+    
+    left:70%;
+    
+}
+
+
+
+@media (min-width:768px)and(max-width:991px)
+{
+    .ch{
+        width: 150px;
+    }
+    .item{
+        width: 160px;
+    }
+    .box{
+        width:150px;
+    }
+    
+}
